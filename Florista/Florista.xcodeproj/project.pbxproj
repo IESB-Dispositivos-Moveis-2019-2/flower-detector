@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB48007626AF86D900433FFC /* FloristaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB48007526AF86D900433FFC /* FloristaApp.swift */; };
+		EB48007826AF86D900433FFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB48007726AF86D900433FFC /* ContentView.swift */; };
+		EB48007A26AF86DC00433FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB48007926AF86DC00433FFC /* Assets.xcassets */; };
+		EB48007D26AF86DC00433FFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB48007C26AF86DC00433FFC /* Preview Assets.xcassets */; };
+		EB48008626AF870C00433FFC /* turi_flower_detector.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EB48008426AF870C00433FFC /* turi_flower_detector.mlmodel */; };
+		EB48008726AF870C00433FFC /* flower_detector.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EB48008526AF870C00433FFC /* flower_detector.mlmodel */; };
+		EB48008926AF887100433FFC /* FlowerDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB48008826AF887100433FFC /* FlowerDetector.swift */; };
+		EB48008B26AF8C4C00433FFC /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB48008A26AF8C4C00433FFC /* ImagePicker.swift */; };
+		EB48008D26AF8E6700433FFC /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB48008C26AF8E6700433FFC /* CameraController.swift */; };
+		EB48008F26AF98C800433FFC /* turi_gender_detector.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EB48008E26AF98C800433FFC /* turi_gender_detector.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB48007226AF86D900433FFC /* Florista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Florista.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB48007526AF86D900433FFC /* FloristaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloristaApp.swift; sourceTree = "<group>"; };
+		EB48007726AF86D900433FFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB48007926AF86DC00433FFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB48007C26AF86DC00433FFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB48007E26AF86DC00433FFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB48008426AF870C00433FFC /* turi_flower_detector.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = turi_flower_detector.mlmodel; sourceTree = "<group>"; };
+		EB48008526AF870C00433FFC /* flower_detector.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = flower_detector.mlmodel; sourceTree = "<group>"; };
+		EB48008826AF887100433FFC /* FlowerDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerDetector.swift; sourceTree = "<group>"; };
+		EB48008A26AF8C4C00433FFC /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		EB48008C26AF8E6700433FFC /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		EB48008E26AF98C800433FFC /* turi_gender_detector.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = turi_gender_detector.mlmodel; path = ../../turi_gender_detector.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB48006F26AF86D900433FFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB48006926AF86D900433FFC = {
+			isa = PBXGroup;
+			children = (
+				EB48007426AF86D900433FFC /* Florista */,
+				EB48007326AF86D900433FFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB48007326AF86D900433FFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB48007226AF86D900433FFC /* Florista.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB48007426AF86D900433FFC /* Florista */ = {
+			isa = PBXGroup;
+			children = (
+				EB48007526AF86D900433FFC /* FloristaApp.swift */,
+				EB48007726AF86D900433FFC /* ContentView.swift */,
+				EB48007926AF86DC00433FFC /* Assets.xcassets */,
+				EB48007E26AF86DC00433FFC /* Info.plist */,
+				EB48008E26AF98C800433FFC /* turi_gender_detector.mlmodel */,
+				EB48008526AF870C00433FFC /* flower_detector.mlmodel */,
+				EB48008426AF870C00433FFC /* turi_flower_detector.mlmodel */,
+				EB48007B26AF86DC00433FFC /* Preview Content */,
+				EB48008826AF887100433FFC /* FlowerDetector.swift */,
+				EB48008A26AF8C4C00433FFC /* ImagePicker.swift */,
+				EB48008C26AF8E6700433FFC /* CameraController.swift */,
+			);
+			path = Florista;
+			sourceTree = "<group>";
+		};
+		EB48007B26AF86DC00433FFC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB48007C26AF86DC00433FFC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB48007126AF86D900433FFC /* Florista */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB48008126AF86DC00433FFC /* Build configuration list for PBXNativeTarget "Florista" */;
+			buildPhases = (
+				EB48006E26AF86D900433FFC /* Sources */,
+				EB48006F26AF86D900433FFC /* Frameworks */,
+				EB48007026AF86D900433FFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Florista;
+			productName = Florista;
+			productReference = EB48007226AF86D900433FFC /* Florista.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB48006A26AF86D900433FFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EB48007126AF86D900433FFC = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = EB48006D26AF86D900433FFC /* Build configuration list for PBXProject "Florista" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB48006926AF86D900433FFC;
+			productRefGroup = EB48007326AF86D900433FFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB48007126AF86D900433FFC /* Florista */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB48007026AF86D900433FFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB48007D26AF86DC00433FFC /* Preview Assets.xcassets in Resources */,
+				EB48007A26AF86DC00433FFC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB48006E26AF86D900433FFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB48008626AF870C00433FFC /* turi_flower_detector.mlmodel in Sources */,
+				EB48007826AF86D900433FFC /* ContentView.swift in Sources */,
+				EB48008D26AF8E6700433FFC /* CameraController.swift in Sources */,
+				EB48008926AF887100433FFC /* FlowerDetector.swift in Sources */,
+				EB48008B26AF8C4C00433FFC /* ImagePicker.swift in Sources */,
+				EB48008F26AF98C800433FFC /* turi_gender_detector.mlmodel in Sources */,
+				EB48007626AF86D900433FFC /* FloristaApp.swift in Sources */,
+				EB48008726AF870C00433FFC /* flower_detector.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EB48007F26AF86DC00433FFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB48008026AF86DC00433FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB48008226AF86DC00433FFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Florista/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Florista/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.iesb.2019-2.Florista";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB48008326AF86DC00433FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Florista/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Florista/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.iesb.2019-2.Florista";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB48006D26AF86D900433FFC /* Build configuration list for PBXProject "Florista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB48007F26AF86DC00433FFC /* Debug */,
+				EB48008026AF86DC00433FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB48008126AF86DC00433FFC /* Build configuration list for PBXNativeTarget "Florista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB48008226AF86DC00433FFC /* Debug */,
+				EB48008326AF86DC00433FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB48006A26AF86D900433FFC /* Project object */;
+}
